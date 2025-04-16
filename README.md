@@ -1,6 +1,6 @@
 ﻿# 📊 **Projeto-Revisao-Embarcatech**
 
-Projeto de revisão sobre a capacitação em Sistemas Embarcados TIC 37 - Embarcatech. Este projeto consiste em um sistema de visualização de cor RGB utilizando joystick analógico, LEDs RGB por PWM, matriz 5x5 controlada por PIO, display OLED e comunicação via I2C, todos integrados na placa BitDogLab.
+Projeto de revisão sobre a capacitação em Sistemas Embarcados TIC 37 - Embarcatech. Este projeto consiste em um sistema de visualização de cor RGB utilizando joystick analógico, LEDs RGB por PWM, matriz 5x5 controlada por PIO, display OLED e comunicação via I2C e UART, todos integrados na placa BitDogLab.
 
 ---
 
@@ -31,4 +31,5 @@ Este projeto utiliza os assuntos aprendidos durante a capacitação: manipulaç�
 - Um quadrado de 8x8 pixels, inicialmente centralizado, se move na tela proporcionalmente aos valores do joystick
 - O botão A troca a cor da matriz PIO e toca um curto barulho com o buzzer, cuja frequencia altera para cada cor
 - O botão B entra em modo BOOTSEEL
+- Pode-se acompanhar as coordenadas X e Y, junto ao duty cicle pelo Serial Monitor
 ---
